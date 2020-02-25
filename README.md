@@ -11,7 +11,7 @@ Griid is the fastest way to browse images in image-heavy subreddits on Reddit.
 To install this project and build locally, you will need [Node.js 12+](https://nodejs.org/en/) and [Yarn](https://classic.yarnpkg.com/en/).
 
 ```sh
-yarn install # Install dependencies
+yarn # Install dependencies
 yarn build # Build app
 cd dist && npx serve # Serve app from a local http server
 # App will be available at localhost:5000
