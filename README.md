@@ -19,7 +19,7 @@ cd dist && npx serve # Serve app from a local http server
 
 ## Build Process
 
-This project [Snowpack](https://www.snowpack.dev/) instead of a bundler like Webpack. Source .js files are processed with Babel to compile JSX, but otherwise remain untranspiled, and are imported as ES modules in the browser. ES modules are supported by [all modern browsers](https://caniuse.com/#feat=es6-module), but not by older browsers like Internet Explorer.
+This project uses [Snowpack](https://www.snowpack.dev/) instead of a bundler like Webpack. Source files are processed with Babel to compile JSX, but otherwise remain untranspiled, and are imported as ES modules in the browser. ES modules are supported by [all modern browsers](https://caniuse.com/#feat=es6-module), but not by older browsers like Internet Explorer.
 
 ## Why isn't an image loading?
 

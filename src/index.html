@@ -2,9 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="preload" href="/web_modules/react.js" as="script">
-    <link rel="preload" href="/web_modules/react-dom.js" as="script">
-    <link rel="preload" href="/web_modules/App.js" as="script">
+    <link rel="preload" href="/style/style.css" as="style">
+    <link rel="preload" crossorigin href="/index.js" as="script">
+    <link rel="preload" crossorigin href="/web_modules/react.js" as="script">
+    <link rel="preload" crossorigin href="/web_modules/react-dom.js" as="script">
+    <link rel="preload" crossorigin href="/App.js" as="script">
+    <link rel="preload" crossorigin href="/Post.js" as="script">
+    <link rel="preload" crossorigin href="/subreddits.js" as="script">
+    <link rel="preload" crossorigin href="/assets/subset-Gilroy-ExtraBold.woff2" as="font">
+    <link rel="preload" crossorigin href="/assets/subset-Gilroy-Light.woff2" as="font">
+    <link rel="preload" href="/assets/loading.svg" as="image">
     <title>Griid</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -13,6 +20,6 @@
   </head>  
   <body>
     <div id="app"></div>
-    <script type="module" src="/index.js"></script>
+    <script type="module" src="/index.js" crossorigin="anonymous"></script>
   </body>
 </html>
