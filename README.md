@@ -2,7 +2,7 @@
 
 # griid.co
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fe6936ec-824d-48b2-865d-83b0d0f7da73/deploy-status)](https://app.netlify.com/sites/griid/deploys) ![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe6936ec-824d-48b2-865d-83b0d0f7da73/deploy-status)](https://app.netlify.com/sites/griid/deploys) [![Lighthouse score: 95/100](https://lighthouse-badge.appspot.com/?score=95) ![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgriid.co%2F)
 
 Griid is the fastest way to browse images in image-heavy subreddits on Reddit.
 
@@ -11,7 +11,7 @@ Griid is the fastest way to browse images in image-heavy subreddits on Reddit.
 To install this project and build locally, you will need [Node.js 12+](https://nodejs.org/en/) and [Yarn](https://classic.yarnpkg.com/en/).
 
 ```sh
-yarn install # Install dependencies
+yarn # Install dependencies
 yarn build # Build app
 cd dist && npx serve # Serve app from a local http server
 # App will be available at localhost:5000
