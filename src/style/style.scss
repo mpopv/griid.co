@@ -13,6 +13,11 @@
   font-style: normal;
 }
 
+	
+input, textarea, select, button {
+  font-size: 12px;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -123,7 +128,6 @@ main {
     position: absolute;
     background-color: #56738B;
     color: #fff;
-    font-size: 12px;
     display: inline-block;
     text-decoration: none;
     font-size: 13px;
