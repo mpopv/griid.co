@@ -37,6 +37,7 @@ const Post = ({ title, thumbnail, permalink, url }) => {
             className="post__button post__button--comments"
             href={`https://www.reddit.com/${permalink}`}
             target="_blank"
+            rel="noreferrer noopener"
             aria-label="Open comments on Reddit"
           >
             <span aria-hidden="true">💬</span>
@@ -45,6 +46,7 @@ const Post = ({ title, thumbnail, permalink, url }) => {
             className="post__button post__button--full-size"
             href={url}
             target="_blank"
+            rel="noreferrer noopener"
             aria-label="Open full image"
           >
             <span aria-hidden="true">🔎</span>
