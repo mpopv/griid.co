@@ -22,7 +22,7 @@
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "sass": "^1.25.0"
   },
   "dependencies": {
